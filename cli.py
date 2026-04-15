@@ -34,13 +34,13 @@ def main():
             args.price
         )
 
-        print("\n✅ Order Placed Successfully!")
+        print("\n Order Placed Successfully!")
         print(f"Order ID: {order['orderId']}")
         print(f"Status: {order['status']}")
         print(f"Executed Qty: {order['executedQty']}")
 
     except Exception as e:
-        print(f"\n❌ Error: {str(e)}")
+        print(f"\n Error: {str(e)}")
 
 if __name__ == "__main__":
     main()
